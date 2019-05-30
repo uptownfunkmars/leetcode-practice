@@ -1,3 +1,16 @@
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+#python中的指针与C语言由很大不同，python中直接用变量名称代表地址。
+#例如：
+#L1 = ListNode(1)      
+#p = ListNode(2)  
+#L1.next = p       <==> C语言中的指针操作
+
+
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         """
