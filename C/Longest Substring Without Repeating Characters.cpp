@@ -1,7 +1,7 @@
 int lengthOfLongestSubstring(char * s) {
 	int len = strlen(s);
 	int max = 0;
-	int tag[100] = { 0 };  //store last occurrencr index value plus one of each evry character;
+	int tag[100] = { 0 };  //store last occurrence index value plus one of each every character;
 	int i = 0, j = 1;
 
 	tag[s[0] - ' '] = i + 1;
